@@ -1,0 +1,8 @@
+
+  cd rausheen
+  npm install
+  npm run dev
+
+
+
+npm install redux react-redux
