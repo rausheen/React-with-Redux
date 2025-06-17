@@ -1,4 +1,3 @@
-
 import './App.css'
 import {incNum} from './action';
 import {decNum} from './action';
@@ -11,7 +10,7 @@ import { useDispatch ,useSelector } from 'react-redux';
     <>
     <div>
       <a onClick={()=> dispatch(decNum())} title='DECREMENT'>DECREMENT</a>
-      <input type="text" value={changeTheNumber} />
+      <input type="text" value={changeTheNumber} onChange={() => {}} />
       <a onClick={()=> dispatch(incNum())} title='INCREMENT'>INCREMENT</a>
     </div>
     </>
